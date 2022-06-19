@@ -1,0 +1,71 @@
+.topic {
+    &__card {
+        cursor: pointer;
+        margin-bottom: map-get($spacers, 3);
+    }
+
+    &__card-img {
+        max-height: 10rem;
+        object-fit: cover;
+
+        &:hover {
+            opacity: .8;
+        }
+    }
+
+    &__title {
+        font-size: $font-size-base;
+        margin-top: map-get($spacers, 3);
+        margin-bottom: map-get($spacers, 1);
+    }
+
+    &__card-topic {
+    }
+
+    &__video-Language {
+        position: absolute;
+        padding: map-get($spacers, 1);
+        bottom: map-get($spacers, 1);
+        left: map-get($spacers, 1);
+        background: rgba(0,0,0, .8);
+        color: $white;
+        font-weight: $font-weight-bold;
+        font-size: $font-size-sm;
+        border-radius: $border-radius;
+        line-height: 1;
+        cursor: pointer;
+    }
+
+    &__video-desc{
+        font-size: $font-size-sm;
+        margin-bottom: map-get($spacers, 1);
+        color: $gray-700;
+    }
+
+    &__video-Time {
+        position: absolute;
+        padding: map-get($spacers, 1);
+        bottom: map-get($spacers, 1);
+        right: map-get($spacers, 1);
+        background: rgba(0,0,0, .8);
+        color: $white;
+        font-weight: $font-weight-bold;
+        font-size: $font-size-sm;
+        border-radius: $border-radius;
+        line-height: 1;
+        cursor: pointer;
+    }
+
+    &__video-favorites {
+        position: absolute;
+        top: map-get($spacers, 2);
+        right: map-get($spacers, 2);
+        z-index: 999;
+    }
+
+    &__container {
+        position: relative;
+        text-align: center;
+        font-size: 0.75rem;
+    }
+}

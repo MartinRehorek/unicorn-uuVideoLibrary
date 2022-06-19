@@ -1,0 +1,20 @@
+.suggestions{
+    &__loader{
+        display: flex;
+        margin: 0 auto;
+        color: $gray-400;
+        margin-top: map-get($spacers, 4);
+    }
+
+    &__notFound {
+        margin-top: map-get($spacers, 4);
+        color: $gray-700;
+        text-align: center;
+        &-icon {
+            font-size: 2rem;
+        }
+        span{
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+
+.item-wrapper {
+        display: flex;
+        width: 900px;
+        height: 345px;
+        background:#F0F0F0;
+        padding: 15px;
+
+}
+
+.item-teaser-img {
+    width: 560px;
+    height: 315px;
+    display: block;
+    margin-right: 45px;
+}
+.item-content{
+    width: 295px;
+    height: 315px;
+}
+
+.video-title{
+    font-size: 1.5em;
+}
+
+.item-tag {
+    display: inline-block;
+    padding: 3px 6px;
+    border-radius: 6px;
+    background-color: #fff;
+    margin-right: 6px;
+
+}
+.item-tag-primary{
+    background-color: #47d1ff;
+}
+

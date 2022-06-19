@@ -1,0 +1,21 @@
+.app {
+  &-body {
+    @include media-breakpoint-up(sm) {
+      padding-top: map-get($spacers, 4);
+      padding-bottom: map-get($spacers, 4);
+    }
+  }
+
+  &__initializing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: $gray-100;
+  }
+}
+textarea {
+  &.form-control {
+    border-radius: 1.5rem;
+  }
+}

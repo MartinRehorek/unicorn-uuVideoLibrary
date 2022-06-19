@@ -1,0 +1,22 @@
+.slick {
+    &-arrow {
+    }
+
+    &-prev, &-next {
+        width: 27px;
+        height: 27px;
+        z-index: 99999;
+        &:before {
+            color: $gray-700;
+            font-size: 1.75rem;
+        }
+    }
+
+    &-next{
+        right: -$grid-gutter-width;
+    }
+
+    &-prev{
+        left: -$grid-gutter-width;
+    }
+}

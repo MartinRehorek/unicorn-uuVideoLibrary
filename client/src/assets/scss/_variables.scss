@@ -1,0 +1,50 @@
+// Fonts
+$font-family-sans-serif: 'Roboto', system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans',
+  'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+$font-weight-bold: 500;
+
+// Headings
+$headings-font-weight: 700;
+$headings-margin-bottom: 1rem;
+
+// Theme colors
+$gray-900: #001d26;
+$gray-700: #6d6d6d;
+$gray-400: #e3e3e3;
+$gray-300: #e8e8e8;
+$gray-200: #ededed;
+$gray-100: #f0f0f0;
+
+$primary: #26c9ff;
+$light: $gray-100;
+
+$body-color: #001D26;
+
+$transition: 0.2s all ease-in;
+
+// Inputs
+$input-bg: $light;
+$input-border-radius: 50rem;
+
+// Buttons
+$btn-border-radius: 50rem;
+$btn-border-radius-lg: 50rem;
+$btn-border-radius-sm: 50rem;
+
+// Navbar
+$navbar-light-color: $light;
+$navbar-light-hover-color: $primary;
+$navbar-light-active-color: $primary;
+$navbar-light-disabled-color: rgba($light, 0.3);
+$navbar-light-toggler-border-color: rgba($light, 0);
+
+// Cards
+$card-border-width: 0;
+$card-border-radius: 0;
+
+// Links
+$link-decoration: none;
+
+// HR
+$hr-color: $gray-400;
+$hr-height: 2px;
